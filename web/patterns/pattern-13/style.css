@@ -1,0 +1,158 @@
+body{
+    background-color:white;
+
+}
+
+#rec div{
+    height: 200px;
+	width: 200px;
+   transform: rotate(45deg);
+	
+   border: 8px solid gray;
+    opacity: 0.7;
+	margin:-80px -190px 10px 10px;
+	float: left;
+}
+
+#rec2{
+    position: relative;
+}
+#rec2 div{
+   width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 150px solid #fcbc4c;
+    float: left;
+}
+#rec3{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 0px;
+}
+#rec3 div{
+    height: 200px;
+	width: 200px;
+ transform: rotate(45deg);
+	
+    opacity: 0.7;
+   border: 8px solid gray;
+	margin:-80px -190px 10px 10px;
+	float: left;
+}
+#rec4{
+    position: relative;
+}
+#rec4 div{
+    width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 150px solid #fcbc4c;
+    float: left;
+}
+#rec5{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 00px;
+}
+#rec5 div{
+    height: 200px;
+	width: 200px;
+   transform: rotate(45deg);
+
+    opacity: 0.7;
+    border: 8px solid gray;
+	margin:-80px -190px 10px 10px;
+	float: left;
+}
+#rec6{
+    position: relative;
+}
+#rec6 div{
+   width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 150px solid #fcbc4c;
+    float: left;
+}
+#rec7{
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 00px;
+}
+#rec7 div{
+    height: 200px;
+	width: 200px;
+   transform: rotate(45deg);
+	
+    opacity: 0.7;
+    border: 8px solid gray;
+	margin:-80px -190px 10px 10px;
+	float: left;
+}
+#rec8{
+    position: relative;
+}
+#rec8 div{
+ width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 150px solid #fcbc4c;
+    float: left;
+}
+#rec9{
+    position: absolute;
+    margin-top: 800px;
+    margin-left: 00px;
+}
+#rec9 div{
+    height: 200px;
+	width: 200px;
+    transform: rotate(45deg);
+
+    opacity: 0.7;
+    border: 8px solid gray;
+	margin:-80px -190px 10px 10px;
+	float: left;
+}
+#rec10{
+    position:relative;
+   
+}
+#rec10 div{
+    width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 150px solid #fcbc4c;
+    float: left;
+}
+#rec12{
+    position:relative;
+   
+}
+#rec12 div{
+    width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 150px solid #fcbc4c;
+    float: left;
+}
+#square{
+    position: absolute;
+    margin-left: 140px;
+}
+#square div{
+    width:100px;
+    height: 1000px;
+    background-color: darkseagreen;
+    opacity: 0.7;
+    float: left;
+    margin: 0px 90px 10px 10px;
+    
+    
+}

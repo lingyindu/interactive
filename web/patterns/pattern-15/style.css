@@ -1,0 +1,36 @@
+body{
+    background-color:white;
+}
+
+#circle{
+     position: absolute;
+   left: 5%;
+   top: 0%;
+}
+#circle div{
+   width: 900px;
+	height: 900px;
+	border-radius: 50%;
+    background-color: #f97c85;
+    opacity: 0.3;
+    float: left;
+    margin: -700px 10px 10px 10px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+#circle2{
+     position: absolute;
+   right: 5%;
+    top: 0%;
+}
+#circle2 div{
+    width: 900px;
+	height: 900px;
+	border-radius: 50%;
+    background-color: #7ed0cd;
+    opacity: 0.3;
+    float:right;
+    margin: -700px 10px 10px 10px;
+    box-shadow: 10px 10px 10px gray;
+    mix-blend-mode: multiply;
+}
