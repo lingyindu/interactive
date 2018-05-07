@@ -1,0 +1,24 @@
+body{
+    background-color:#d7e3e3;
+    opacity: 0.8;
+
+}
+
+#triangle div{
+    height: 100px;
+	width: 100px;
+	background-color:coral;
+    border: 20px solid red;
+    opacity: 0.8;
+	margin: 50px;
+	float: left;
+}
+#triangle .one{
+     height: 100px;
+	width: 100px;
+	background-color:#ff91a6;
+     opacity: 1;
+	border-radius: 50%;
+	margin: 50px;
+	float: left;
+}

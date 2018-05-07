@@ -1,0 +1,151 @@
+body{
+    background-color:white;
+
+}
+
+#rec div{
+    height: 200px;
+	width: 200px;
+   transform: rotate(45deg);
+	background: #afc6c5;
+   
+    opacity: 0.7;
+	margin:-80px -20px 10px 10px;
+	float: left;
+}
+
+#rec2{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+#rec2 div{
+    height: 200px;
+	width: 200px;
+    transform: rotate(45deg);
+	background: #99b6a5;
+   
+    opacity: 0.7;
+	margin:-80px -20px 10px 10px;
+	float: left;
+}
+#rec3{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 0px;
+}
+#rec3 div{
+    height: 200px;
+	width: 200px;
+ transform: rotate(45deg);
+	background: #e7cb9f;
+    opacity: 0.7;
+   
+	margin:-80px -20px 10px 10px;
+	float: left;
+}
+#rec4{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+#rec4 div{
+    height: 200px;
+	width: 200px;
+   transform: rotate(45deg);
+	background: #f6a279;
+    opacity: 0.7;
+  
+	margin:-80px -20px 10px 10px;
+	float: left;
+}
+#rec5{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 00px;
+}
+#rec5 div{
+    height: 200px;
+	width: 200px;
+   transform: rotate(45deg);
+	background: #d1766f;
+    opacity: 0.7;
+    
+	margin:-80px -20px 10px 10px;
+	float: left;
+}
+#rec6{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 100px;
+}
+#rec6 div{
+    height: 200px;
+	width: 200px;
+    transform: rotate(45deg);
+	background: #faa4b6;
+    opacity: 0.7;
+    
+	margin:-80px -20px 10px 10px;
+	float: left;
+}
+#rec7{
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 00px;
+}
+#rec7 div{
+    height: 200px;
+	width: 200px;
+   transform: rotate(45deg);
+	background: #aa7693;
+    opacity: 0.7;
+    
+	margin:-80px -20px 10px 10px;
+	float: left;
+}
+#rec8{
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 100px;
+}
+#rec8 div{
+    height: 200px;
+	width: 200px;
+    transform: rotate(45deg);
+	background: #a856e1;
+    opacity: 0.7;
+   
+	margin:-80px -20px 10px 10px;
+	float: left;
+}
+#rec9{
+    position: absolute;
+    margin-top: 800px;
+    margin-left: 00px;
+}
+#rec9 div{
+    height: 200px;
+	width: 200px;
+    transform: rotate(45deg);
+	background:#6542e8;
+    opacity: 0.7;
+    
+	margin:-80px -20px 10px 10px;
+	float: left;
+}
+#rec10{
+    position: absolute;
+    margin-top: 900px;
+    margin-left: 100px;
+}
+#rec10 div{
+    height: 200px;
+	width: 200px;
+    transform: rotate(45deg);
+	background: #929ec7;
+    opacity: 0.7;
+   
+	margin:-80px -20px 10px 10px;
+	float: left;
+}

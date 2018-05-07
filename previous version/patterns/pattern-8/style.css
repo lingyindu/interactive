@@ -1,0 +1,30 @@
+body{
+    background-color: floralwhite;
+
+}
+
+#circle div{
+  
+    height: 200px;
+	width: 200px;
+   border-radius: 50%;
+	background-color: #e4665c;
+    opacity: 0.4;
+	margin:10px 10px 10px 10px;
+	float: left;
+}
+#rec{
+     position: absolute;;
+}
+#rec div{
+    height: 200px;
+	width: 200px;
+   
+   border-radius: 50%;
+	background: #66bdd3;
+    opacity: 0.6;
+	float: left;
+    margin: 10px 20px 10px 10px;
+	
+}
+

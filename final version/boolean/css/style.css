@@ -1,0 +1,167 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+	font-family: 'Helvetica Neue', sans-serif;
+  overflow-x: hidden;
+}
+
+
+h2 {
+	font-weight: 100;
+	font-size: 10em;
+	line-height: 1em;
+	text-transform: uppercase;
+  letter-spacing: .05em;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+
+.inner {
+	text-align: center;
+}
+
+#star-svg {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 0px 0 0 -100px;
+transform: scale(1.5);
+    
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  
+    
+    color:#fff;
+    z-index: 1000;
+    height: 140px;
+    overflow: hidden;
+    -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    transition: height 0.3s;
+    text-align:center;
+    line-height:100px;
+     font-family: 'Chicle', cursive;
+
+}
+
+img{
+/*    mix-blend-mode:darken;*/
+}
+
+
+.section {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	
+	height:auto;
+  padding: 1% 0;
+}
+#section-one {
+	background: #EFCAD8;
+}
+#section-two {
+	background: #EDB2C9;
+}
+#section-three {
+	background: #F28CB3;
+}
+#section-four {
+	background: #ED74A3;
+}
+#section-five {
+	background: #F25C96;
+}
+
+
+
+#section-menu {
+	position: fixed;
+	top: 50%;
+	right: 0;
+	z-index: 3000;
+	text-transform: uppercase;
+
+	-webkit-transition: all ease 0.1s;
+	transition: all ease 0.1s;
+}
+#section-menu.freeze {
+	right: -112px;
+}
+.touch #section-menu {
+	display: none;
+}
+#section-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#section-menu li {}
+#section-menu a {
+	float: right;
+	clear: both;
+
+	display: block;
+	height: 2em;
+	line-height: 2em;
+	text-decoration: none;
+	padding: 0 16px;
+	background: rgba(0,0,0,0.3);
+	color: #fff;
+	white-space: nowrap;
+
+	-webkit-transition: all ease 0.1s;
+	transition: all ease 0.1s;
+}
+#section-menu.freeze a {
+	float: none;
+	width: 200px;
+}
+#section-menu a:hover,
+#section-menu a:focus {
+	background: rgba(0,0,0,0.5);
+	font-size: 1.2em;
+}
+#section-menu a span {
+	display: none;
+	font-weight: 700;
+	position: relative;
+	width: 58px;
+	left: -16px;
+	text-align: center;
+	background: rgba(0,0,0,0.1);
+}
+#section-menu a.active {
+	background: #000;
+	font-size: 1.4em;
+	font-weight: 400;
+}
+#section-menu.freeze a span {
+	display: inline-block;
+}
+#section-menu a.active span {
+	display: inline-block;
+	background: #000;
+}
+#section-menu a.active span:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	background: rgba(255,255,255,0.25);
+}
+#section-menu.freeze a.active span:before {
+	display: none;
+}

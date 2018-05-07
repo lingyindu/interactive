@@ -1,0 +1,361 @@
+
+
+body {
+  background: #f0f2ed; 
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+h1{
+    text-align: center;
+    color: #605666;
+    font-size: 100px;
+    margin-top: 70px;
+    font-family: 'WenYue-QingLongTi-NC-W5', serif ;
+}
+h4 {
+	font-size: 18px;
+	line-height: 1px;
+	font-family: 'Kaiti SC', serif ;
+}
+h5{
+    font-size: 14px;
+    line-height: 0px;
+	font-family: 'Georgia', serif ;
+    text-align:left;
+    padding-bottom: -20px;
+}
+
+.color1{color:#605666}
+.color2{color:#605666}
+
+.margin {
+	margin-bottom: 23px;
+/*    the margine inside the book*/
+}
+
+.card {
+	color: #605666; 
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 300px;
+	height: 400px;
+	background: #f8f7f1;
+	transform-style: preserve-3d;
+	transform: translate(-50%,-50%) perspective(2000px);
+	box-shadow: inset 300px 0 50px rgba(0,0,0,.15), 20px 0 60px rgba(0,0,0,.15);
+	transition: 1s;
+}
+
+.card:hover {
+	transform: translate(-50%,-50%) perspective(2000px) rotate(0deg) scale(1.3);
+	box-shadow: inset 20px 0 50px rgba(0,0,0,.2), 0 10px 100px rgba(0,0,0,.2);
+}
+
+.card:before {
+	content:'';
+	position: absolute;
+	top: 0px;
+	left: 0;
+	width: 100%;
+	height: 5px;
+	background: #BAC1BA;
+	transform-origin: bottom;
+}
+
+.card:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: -5px;
+	width: 5px;
+	height: 100%;
+	background: #92A29C;
+	transform-origin: left;
+/*	transform: skewY(-0deg);*/
+}
+
+.card .imgBox {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	transform-origin: left;
+	transition: .7s;
+}
+
+.card .bark {
+	position: absolute;
+	background: #e0e1dc;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: .7s;
+}
+
+.card .imgBox img {
+	max-width: 300px;
+	max-height: 400px;
+}
+
+.card:hover .imgBox {
+	transform: rotateY(-130deg);
+}
+
+.card:hover .bark {
+	opacity: 0.7;
+	transition: .6s;
+  box-shadow: 300px 200px 100px rgba(0, 0, 0, .1) ;
+}
+
+.card .details {
+	position: absolute;
+	top: 0;
+	left: 0;
+/*	box-sizing: border-box;*/
+	padding: 0 0 0 30px;
+	z-index: -10;
+	margin-top: 30px;
+}
+
+.card .details .english {
+	font-size: 10px;
+	line-height: 8px;
+	padding: -40px 0 -10px 10px;
+    text-align: left;
+}
+
+.card .details .chinese {
+    font-family: "Kaiti SC";
+	font-size: 15px;
+	line-height: 8px;
+	padding: 20px 0 5px 120px;
+    text-align: right;
+    writing-mode:vertical-rl;
+    letter-spacing: 15px;
+}
+
+.card .details h4 {
+	text-align: left;
+}
+
+
+
+/*card2*/
+.card2{
+    color: #605666; 
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 300px;
+	height: 400px;
+	background: #f8f7f1;
+	transform-style: preserve-3d;
+	transform: translate(-200%,-50%) perspective(2000px);
+	box-shadow: inset 300px 0 50px rgba(0,0,0,.15), 20px 0 60px rgba(0,0,0,.15);
+	transition: 1s;
+}
+
+
+.card2:hover {
+	transform: translate(-200%,-50%) perspective(2000px) rotate(0deg) scale(1.3);
+	box-shadow: inset 20px 0 50px rgba(0,0,0,.2), 0 10px 100px rgba(0,0,0,.2);
+}
+
+.card2:before {
+	content:'';
+	position: absolute;
+	top: 0px;
+	left: 10px;
+	width: 100%;
+	height: 5px;
+	background: #BAC1BA;
+	transform-origin: bottom;
+/*	transform: skewX(-15deg);*/
+}
+
+.card2:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: -5px;
+	width: 5px;
+	height: 100%;
+	background: #92A29C;
+	transform-origin: left;
+/*	transform: skewY(-0deg);*/
+}
+
+.card2 .imgBox {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	transform-origin: left;
+	transition: .7s;
+}
+
+.card2 .bark {
+	position: absolute;
+	background: #e0e1dc;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: .7s;
+}
+
+.card2 .imgBox img {
+	max-width: 300px;
+	max-height: 400px;
+}
+
+.card2:hover .imgBox {
+	transform: rotateY(-130deg);
+}
+
+.card2:hover .bark {
+	opacity: 0.7;
+	transition: .6s;
+  box-shadow: 300px 200px 100px rgba(0, 0, 0, .1) ;
+}
+
+.card2 .details {
+	position: absolute;
+	top: 0;
+	left: 0;
+/*	box-sizing: border-box;*/
+	padding: 0 0 0 30px;
+	z-index: -10;
+	margin-top: 30px;
+}
+
+.card2 .details .english {
+	font-size: 10px;
+	line-height: 8px;
+	padding: -40px 0 -10px 10px;
+    text-align: left;
+}
+
+.card2 .details .chinese {
+    font-family: "Kaiti SC";
+	font-size: 15px;
+	line-height: 8px;
+	padding: 30px 0 5px 120px;
+    text-align: right;
+    writing-mode:vertical-rl;
+    letter-spacing: 15px;
+}
+
+.card2 .details h4 {
+	text-align: left;
+}
+
+/*card3*/
+
+.card3{
+    color: #605666; 
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 300px;
+	height: 400px;
+	background: #f8f7f1;
+	transform-style: preserve-3d;
+	transform: translate(100%,-50%) perspective(2000px);
+	box-shadow: inset 300px 0 50px rgba(0,0,0,.15), 20px 0 60px rgba(0,0,0,.15);
+	transition: 1s;
+}
+
+
+.card3:hover {
+	transform: translate(100%,-50%) perspective(2000px) rotate(0deg) scale(1.3);
+	box-shadow: inset 20px 0 50px rgba(0,0,0,.2), 0 10px 100px rgba(0,0,0,.2);
+}
+
+.card3:before {
+	content:'';
+	position: absolute;
+	top: 0px;
+	left: 10px;
+	width: 100%;
+	height: 5px;
+	background: #BAC1BA;
+	transform-origin: bottom;
+/*	transform: skewX(-15deg);*/
+}
+
+.card3:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: -5px;
+	width: 5px;
+	height: 100%;
+	background: #92A29C;
+	transform-origin: left;
+/*	transform: skewY(-0deg);*/
+}
+
+.card3 .imgBox {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	transform-origin: left;
+	transition: .7s;
+}
+
+.card3 .bark {
+	position: absolute;
+	background: #e0e1dc;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: .7s;
+}
+
+.card3 .imgBox img {
+	max-width: 300px;
+	max-height: 400px;
+}
+
+.card3:hover .imgBox {
+	transform: rotateY(-130deg);
+}
+
+.card3:hover .bark {
+	opacity: 0.7;
+	transition: .6s;
+  box-shadow: 300px 200px 100px rgba(0, 0, 0, .1) ;
+}
+
+.card3 .details {
+	position: absolute;
+	top: 0;
+	left: 0;
+/*	box-sizing: border-box;*/
+	padding: 0 0 0 30px;
+	z-index: -10;
+	margin-top: 30px;
+}
+
+.card3 .details .english {
+	font-size: 10px;
+	line-height: 8px;
+	padding: -40px 0 -10px 10px;
+    text-align: left;
+}
+
+.card3 .details .chinese {
+    font-family: "Kaiti SC";
+	font-size: 15px;
+	line-height: 8px;
+	padding: 30px 0 5px 120px;
+    text-align: right;
+    writing-mode:vertical-rl;
+    letter-spacing: 15px;
+}
+
+.card3 .details h4 {
+	text-align: left;
+}
